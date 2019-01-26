@@ -31,7 +31,11 @@ print ('\033[1;31m--------------------------------------------------------------
 try:
 	target = target.replace('https://', '') #Removes https://
 except:
-	print ('\033[1;32m[+]\033[1;m Enter python netbreacher -h for help')
+	print ('\033[1;32m[+]\033[1;m  python netbreacher.py -h for help')
+	print ('')
+print ('')
+		print ('')
+	
 	quit()
 
 target = target.replace('http://', '') #and http:// from the url
