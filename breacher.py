@@ -26,17 +26,14 @@ print ('''\033[1;34m
 
                           \033[37mMade with \033[91m<3\033[37m By NetGxd\033[1;m''')
 
-print ('''\n  Net gang are big boys, we wil find your admin page.\n''')
+print ('''\n              Net gang are big boys, we will find your admin page.\n''')
 print ('\033[1;31m--------------------------------------------------------------------------\033[1;m\n')
 
 try:
 	target = target.replace('https://', '') #Removes https://
 except:
 	print ('\033[1;32m[+]\033[1;m Enter python breacher.py -h for help')
-	print('')
-	print('')
-	print('')
-	print('')
+	print ('\033[1;31m[!]\033[1;m This tool is for NetGang only, dont share kek')
 	print('')
 	quit()
 
