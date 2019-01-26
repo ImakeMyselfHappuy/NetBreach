@@ -54,7 +54,7 @@ def scan(links):
 		r = requests.get(link) #Requests to the combined url
 		http = r.status_code #Fetches the http response code
 		if http == 200: #if its 200 the url points to valid resource i.e. admin panel
-			print ('  \033[1;32m[+]\033[0mNetGang | Admin panel found: %s'% link)
+			print ('  \033[1;32m[+]\033[0m Admin panel found: %s'% link)
 		elif http == 404: #404 means not found
 			print ('  \033[1;31m[-]\033[1;m %s'% link)
 		elif http == 302: #302 means redirection
